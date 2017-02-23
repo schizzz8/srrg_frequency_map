@@ -32,7 +32,7 @@ int main(int argc, char ** argv) {
 
     Eigen::Matrix2d boundingBox = Eigen::Matrix2d::Zero();
     float rows, cols, gain=5, square_size=0.05f;
-    float resolution = 0.1f, max_range = 5.0f, usable_range=5.0f, angle, threshold = -1.0f;
+    float resolution = 0.05f, max_range = 5.0f, usable_range=5.0f, angle, threshold = -1.0f;
     string mapFilename = "output";
   
     float xmin=std::numeric_limits<float>::max();
